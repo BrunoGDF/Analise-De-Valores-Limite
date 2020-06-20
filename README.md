@@ -38,3 +38,5 @@ tests.bat
 ```
 
 Relatório gerado no arquivo *relatorio_testes_funcionais.html*
+
+Você pode acessar um vídeo explicando a entrega [AQUI](https://drive.google.com/file/d/1ffqSiEU7Scem5NkKDkXOLh9-lSeknUl1/view?usp=sharing).
