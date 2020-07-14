@@ -1,0 +1,1 @@
+pytest --capture=sys testes_parametrizados.py --html=relatorio_testes_parametrizados.html --self-contained-html 
