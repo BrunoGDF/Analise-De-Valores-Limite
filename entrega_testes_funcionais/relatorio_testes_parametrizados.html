@@ -420,7 +420,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>relatorio_testes_parametrizados.html</h1>
-    <p>Report generated on 14-Jul-2020 at 18:48:38 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
+    <p>Report generated on 14-Jul-2020 at 20:05:30 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v2.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -436,7 +436,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.9</td></tr></table>
     <h2>Summary</h2>
-    <p>15 tests ran in 10.05 seconds. </p>
+    <p>15 tests ran in 10.51 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">13 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -452,25 +452,25 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">testes_parametrizados.py::testes[0--1]</td>
-          <td class="col-duration">0.77</td>
+          <td class="col-duration">0.75</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">dia = 0, valor_esperado = -1<br/><br/>    @pytest.mark.parametrize(&#x27;dia, valor_esperado&#x27;, DADOS_TESTES)<br/>    def testes(dia, valor_esperado):<br/>        aluguel = Aluguel(VALOR_NOMINAL, dia)<br/>    <br/>        resultado = aluguel.calcula_valor()<br/>    <br/>        valor_aluguel = resultado[&#x27;valor_calculado&#x27;]<br/>    <br/>        sys.stderr.write(&quot;Dia {} - Valor esperado: {} - valor recebido: {}&quot;<br/>                         .format(dia, valor_esperado, valor_aluguel))<br/>    <br/>&gt;       assert valor_aluguel == valor_esperado<br/><span class="error">E       AssertionError</span><br/><br/>testes_parametrizados.py:31: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>Dia 0 - Valor esperado: -1 - valor recebido: 270.0<br/></div></td></tr></tbody>
+            <div class="log">dia = 0, valor_esperado = -1<br/><br/>    @pytest.mark.parametrize(&#x27;dia, valor_esperado&#x27;, DADOS_TESTES)<br/>    def testes(dia, valor_esperado):<br/>        aluguel = Aluguel(VALOR_NOMINAL, dia)<br/>    <br/>        resultado = aluguel.calcula_valor()<br/>    <br/>        valor_aluguel = resultado[&#x27;valor_calculado&#x27;]<br/>    <br/>        sys.stderr.write(&quot;Dia {} - Valor esperado: {} - valor recebido: {}&quot;<br/>                         .format(dia, valor_esperado, valor_aluguel))<br/>    <br/>&gt;       assert valor_aluguel == valor_esperado<br/><span class="error">E       AssertionError</span><br/><br/>testes_parametrizados.py:30: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>Dia 0 - Valor esperado: -1 - valor recebido: 270.0<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">testes_parametrizados.py::testes[15-300.0]</td>
-          <td class="col-duration">0.63</td>
+          <td class="col-duration">0.70</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">dia = 15, valor_esperado = 300.0<br/><br/>    @pytest.mark.parametrize(&#x27;dia, valor_esperado&#x27;, DADOS_TESTES)<br/>    def testes(dia, valor_esperado):<br/>        aluguel = Aluguel(VALOR_NOMINAL, dia)<br/>    <br/>        resultado = aluguel.calcula_valor()<br/>    <br/>        valor_aluguel = resultado[&#x27;valor_calculado&#x27;]<br/>    <br/>        sys.stderr.write(&quot;Dia {} - Valor esperado: {} - valor recebido: {}&quot;<br/>                         .format(dia, valor_esperado, valor_aluguel))<br/>    <br/>&gt;       assert valor_aluguel == valor_esperado<br/><span class="error">E       AssertionError</span><br/><br/>testes_parametrizados.py:31: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>Dia 15 - Valor esperado: 300.0 - valor recebido: 270.0<br/></div></td></tr></tbody>
+            <div class="log">dia = 15, valor_esperado = 300.0<br/><br/>    @pytest.mark.parametrize(&#x27;dia, valor_esperado&#x27;, DADOS_TESTES)<br/>    def testes(dia, valor_esperado):<br/>        aluguel = Aluguel(VALOR_NOMINAL, dia)<br/>    <br/>        resultado = aluguel.calcula_valor()<br/>    <br/>        valor_aluguel = resultado[&#x27;valor_calculado&#x27;]<br/>    <br/>        sys.stderr.write(&quot;Dia {} - Valor esperado: {} - valor recebido: {}&quot;<br/>                         .format(dia, valor_esperado, valor_aluguel))<br/>    <br/>&gt;       assert valor_aluguel == valor_esperado<br/><span class="error">E       AssertionError</span><br/><br/>testes_parametrizados.py:30: AssertionError<br/> ------------------------------Captured stderr call------------------------------ <br/>Dia 15 - Valor esperado: 300.0 - valor recebido: 270.0<br/></div></td></tr></tbody>
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[1-270.0]</td>
-          <td class="col-duration">0.69</td>
+          <td class="col-duration">0.62</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -479,7 +479,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[2-270.0]</td>
-          <td class="col-duration">0.68</td>
+          <td class="col-duration">0.62</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -488,7 +488,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[5-270.0]</td>
-          <td class="col-duration">0.62</td>
+          <td class="col-duration">0.65</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -497,7 +497,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[6-285.0]</td>
-          <td class="col-duration">0.62</td>
+          <td class="col-duration">0.61</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -506,7 +506,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[7-285.0]</td>
-          <td class="col-duration">0.65</td>
+          <td class="col-duration">0.68</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -515,7 +515,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[8-285.0]</td>
-          <td class="col-duration">0.62</td>
+          <td class="col-duration">0.68</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -524,7 +524,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[10-285.0]</td>
-          <td class="col-duration">0.63</td>
+          <td class="col-duration">0.80</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -533,7 +533,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[11-300.0]</td>
-          <td class="col-duration">0.68</td>
+          <td class="col-duration">0.66</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -542,7 +542,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[14-300.0]</td>
-          <td class="col-duration">0.64</td>
+          <td class="col-duration">0.63</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -551,7 +551,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[16-306.3]</td>
-          <td class="col-duration">0.60</td>
+          <td class="col-duration">0.68</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -560,7 +560,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[20-307.5]</td>
-          <td class="col-duration">0.61</td>
+          <td class="col-duration">0.67</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -569,7 +569,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[30-310.5]</td>
-          <td class="col-duration">0.63</td>
+          <td class="col-duration">0.61</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -578,7 +578,7 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">testes_parametrizados.py::testes[31--1]</td>
-          <td class="col-duration">0.63</td>
+          <td class="col-duration">0.72</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">

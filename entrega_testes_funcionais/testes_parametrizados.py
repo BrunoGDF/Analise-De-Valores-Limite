@@ -1,15 +1,21 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jul 14 17:59:49 2020
+
+@author: bruno
+"""
+
 import pytest
 import sys
 import os
 import inspect
+from Aluguel import Aluguel
 
 currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 
 parentdir = os.path.dirname(currentdir)
 
 sys.path.insert(0, parentdir)
-
-from Aluguel import Aluguel
 
 VALOR_NOMINAL = 300.0
 DADOS_TESTES = [(0,-1), (1,270.0), (2,270.0), (5,270.0),(6,285.0),
